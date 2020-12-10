@@ -7,6 +7,7 @@ import seaborn as lineplot
 from matplotlib import pyplot 
 
 url ="https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-car-sales.csv"
+# provide the url
 dataset = pd.read_csv(url)
 # show the only ten values 
 dataset.head(10)
